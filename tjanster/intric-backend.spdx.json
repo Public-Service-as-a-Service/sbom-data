@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-intric-backend commit 575151c1ddcd1da04e35e8f8f357f8b0553c10e9 (2025-08-11T09:36:51Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
+    "comment": "Genererad ur web-app-intric-backend commit 575151c1ddcd1da04e35e8f8f357f8b0553c10e9 (2025-08-11T09:36:51Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2025-08-11T09:36:51Z",
     "creators": [
       "Organization: aquasecurity",

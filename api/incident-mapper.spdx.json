@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-incident-mapper commit 94310d73faa1a47c1e48ec21b74a2c061c2ad3dd (2026-08-31T10:51:16Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i api-catalogue.",
+    "comment": "Genererad ur api-service-incident-mapper commit 94310d73faa1a47c1e48ec21b74a2c061c2ad3dd (2026-08-31T10:51:16Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-08-31T10:51:16Z",
     "creators": [
       "Organization: aquasecurity",

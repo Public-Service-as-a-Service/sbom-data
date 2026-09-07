@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-csv-filereader commit b0a1b6474f77ec765e08c1cc74967a35cd209918 (2026-06-04T13:05:27Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i api-catalogue.",
+    "comment": "Genererad ur api-service-csv-filereader commit b0a1b6474f77ec765e08c1cc74967a35cd209918 (2026-06-04T13:05:27Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-06-04T13:05:27Z",
     "creators": [
       "Organization: aquasecurity",

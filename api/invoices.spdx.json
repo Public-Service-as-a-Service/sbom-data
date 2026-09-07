@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-invoices commit 181ccb7db999c3e891aacd14ebe261c89955a28e (2026-08-31T01:44:42Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i api-catalogue.",
+    "comment": "Genererad ur api-service-invoices commit 181ccb7db999c3e891aacd14ebe261c89955a28e (2026-08-31T01:44:42Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-08-31T01:44:42Z",
     "creators": [
       "Organization: aquasecurity",

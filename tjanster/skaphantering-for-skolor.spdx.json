@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-edu-locker-management commit 853d3351c04f032056e21dc71cffd0b0c1463821 (2026-08-28T08:58:02Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
+    "comment": "Genererad ur web-app-edu-locker-management commit 853d3351c04f032056e21dc71cffd0b0c1463821 (2026-08-28T08:58:02Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-08-28T08:58:02Z",
     "creators": [
       "Organization: aquasecurity",

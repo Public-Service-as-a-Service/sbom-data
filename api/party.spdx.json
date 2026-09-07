@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-party commit 91149633a79ad7c75bcc57aa4144d8b80657dacc (2026-08-31T01:36:27Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i api-catalogue.",
+    "comment": "Genererad ur api-service-party commit 91149633a79ad7c75bcc57aa4144d8b80657dacc (2026-08-31T01:36:27Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-08-31T01:36:27Z",
     "creators": [
       "Organization: aquasecurity",

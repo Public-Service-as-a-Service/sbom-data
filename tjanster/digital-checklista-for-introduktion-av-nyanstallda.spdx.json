@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-digital-checklist commit 86eb24207961fc4ae7bd045ec5c013dcaadb3d06 (2025-08-27T13:58:32Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
+    "comment": "Genererad ur web-app-digital-checklist commit 86eb24207961fc4ae7bd045ec5c013dcaadb3d06 (2025-08-27T13:58:32Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2025-08-27T13:58:32Z",
     "creators": [
       "Organization: aquasecurity",

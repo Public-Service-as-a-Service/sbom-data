@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-student-account-admin commit 77b168e1d80d5d827f48973a1007c1a94a6face0 (2026-08-03T09:12:34Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
+    "comment": "Genererad ur web-app-student-account-admin commit 77b168e1d80d5d827f48973a1007c1a94a6face0 (2026-08-03T09:12:34Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-08-03T09:12:34Z",
     "creators": [
       "Organization: aquasecurity",

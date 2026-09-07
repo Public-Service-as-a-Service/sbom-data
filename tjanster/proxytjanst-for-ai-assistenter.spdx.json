@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-ai-backend commit 5a0f7f7eb53131ac75992ac5a4ff9408d43b3842 (2026-06-09T13:39:55Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
-    "created": "2026-06-09T13:39:55Z",
+    "comment": "Genererad ur web-app-ai-backend commit 0b5249e2a40ec16065ec49e960218c0f90d7495b (2026-09-03T12:49:59Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-03T12:49:59Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/proxytjanst-for-ai-assistenter/5a0f7f7eb53131ac75992ac5a4ff9408d43b3842",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/proxytjanst-for-ai-assistenter/0b5249e2a40ec16065ec49e960218c0f90d7495b",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-ai-backend@5a0f7f7",
+  "name": "web-app-ai-backend@0b5249e",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-ae59f6ce26861124",

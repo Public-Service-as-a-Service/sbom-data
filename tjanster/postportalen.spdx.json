@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-dispatch-portal commit d94961f6fcc5bbd6e885aebb51018d5dfd5f5675 (2026-08-31T11:56:18Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
-    "created": "2026-08-31T11:56:18Z",
+    "comment": "Genererad ur web-app-dispatch-portal commit 982fcf437459c97abd645b4d1bdaaacc9c1113cf (2026-09-02T13:51:07Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-02T13:51:07Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/postportalen/d94961f6fcc5bbd6e885aebb51018d5dfd5f5675",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/postportalen/982fcf437459c97abd645b4d1bdaaacc9c1113cf",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-dispatch-portal@d94961f",
+  "name": "web-app-dispatch-portal@982fcf4",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-4e23bd16f917af38",

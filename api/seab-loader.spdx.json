@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-seab-loader commit 04f816c3e9f41ce6c5a144b6802a5fe92418b4a9 (2026-08-31T06:08:10Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i api-catalogue.",
+    "comment": "Genererad ur api-service-seab-loader commit 04f816c3e9f41ce6c5a144b6802a5fe92418b4a9 (2026-08-31T06:08:10Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-08-31T06:08:10Z",
     "creators": [
       "Organization: aquasecurity",

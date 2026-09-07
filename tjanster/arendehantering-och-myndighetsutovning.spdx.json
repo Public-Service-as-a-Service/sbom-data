@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-draken-public commit 3ebfba7d8ce15ce12410e423fb768a4340791ca7 (2026-08-28T13:36:28Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
-    "created": "2026-08-28T13:36:28Z",
+    "comment": "Genererad ur web-app-draken-public commit b52c7739e558ef41bdaae710005e6173b03314e0 (2026-09-07T07:37:18Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-07T07:37:18Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/arendehantering-och-myndighetsutovning/3ebfba7d8ce15ce12410e423fb768a4340791ca7",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/arendehantering-och-myndighetsutovning/b52c7739e558ef41bdaae710005e6173b03314e0",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-draken-public@3ebfba7",
+  "name": "web-app-draken-public@b52c773",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-4e23bd16f917af38",

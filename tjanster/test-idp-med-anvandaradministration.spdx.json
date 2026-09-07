@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-fake-idp-admin commit b27b4e75d2f7a7e4c310e57fcd74bc1271835266 (2026-08-24T07:44:29Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
+    "comment": "Genererad ur web-app-fake-idp-admin commit b27b4e75d2f7a7e4c310e57fcd74bc1271835266 (2026-08-24T07:44:29Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2026-08-24T07:44:29Z",
     "creators": [
       "Organization: aquasecurity",

@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-oep-integrator commit 680319d9f13c0fa1a4676760dadfa7a2e2059d5b (2026-08-31T03:26:55Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i api-catalogue.",
-    "created": "2026-08-31T03:26:55Z",
+    "comment": "Genererad ur api-service-oep-integrator commit 283050a5a865ce73df365b1452da21ead7589dc1 (2026-09-04T09:40:53Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-04T09:40:53Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/oep-integrator/680319d9f13c0fa1a4676760dadfa7a2e2059d5b",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/oep-integrator/283050a5a865ce73df365b1452da21ead7589dc1",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-oep-integrator@680319d",
+  "name": "api-service-oep-integrator@283050a",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",

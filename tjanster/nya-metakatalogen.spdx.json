@@ -1,7 +1,7 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-new-meta-catalogue commit 66d2a886603111f762702e84a291fb17db1a7f20 (2025-09-04T06:28:55Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i web-catalogue.",
+    "comment": "Genererad ur web-app-new-meta-catalogue commit 66d2a886603111f762702e84a291fb17db1a7f20 (2025-09-04T06:28:55Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
     "created": "2025-09-04T06:28:55Z",
     "creators": [
       "Organization: aquasecurity",
