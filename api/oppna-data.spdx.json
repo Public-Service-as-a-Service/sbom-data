@@ -1,0 +1,1707 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "comment": "Genererad ur api-opendata commit 876cb39f2b4ca43022524cb0e54a9dee70c78abb (2026-05-05T20:47:06Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-05-05T20:47:06Z",
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.74.0"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/oppna-data/876cb39f2b4ca43022524cb0e54a9dee70c78abb",
+  "hasExtractedLicensingInfos": [],
+  "name": "api-opendata@876cb39",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",
+      "downloadLocation": "git+https://github.com/diwise/api-opendata.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "api-opendata",
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-b3a84094a1c72982",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/beorn7/perks",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ceb8cf9c027615c0",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/cenkalti/backoff/v5@v5.0.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/cenkalti/backoff/v5",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v5.0.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-b85553e2073b608c",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/cespare/xxhash/v2",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v2.3.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-cc489b2bc2d570c9",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/diwise/api-opendata",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "github.com/diwise/api-opendata",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2d69c04ca342cbd9",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/diwise/context-broker@v0.0.0-20250910122532-163e74ab571a",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "AGPL-3.0-only",
+      "licenseDeclared": "AGPL-3.0-only",
+      "name": "github.com/diwise/context-broker",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.0.0-20250910122532-163e74ab571a"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-af67798b6f9fea81",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/diwise/ngsi-ld-golang@v0.0.0-20220518083256-2e7d28ad5f2e",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/diwise/ngsi-ld-golang",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.0.0-20220518083256-2e7d28ad5f2e"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-adeb2ae4d723d1f0",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/diwise/service-chassis@v0.0.0-20260101212336-69217c6c241d",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/diwise/service-chassis",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.0.0-20260101212336-69217c6c241d"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1ae236e7ca4f4735",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/felixge/httpsnoop@v1.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/felixge/httpsnoop",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.0.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-173d1055df0eaeac",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/go-chi/chi/v5@v5.2.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/go-chi/chi/v5",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v5.2.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ea5fab490eaeaecc",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/go-logr/logr@v1.4.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "github.com/go-logr/logr",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.4.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-707ad0fa9758ae44",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/go-logr/stdr@v1.2.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "github.com/go-logr/stdr",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.2.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-64093c530fa32e6a",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/google/uuid@v1.6.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "github.com/google/uuid",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.6.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1f9dcbc961af8a57",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/grpc-ecosystem/grpc-gateway/v2@v2.27.5",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v2.27.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9e63b8a031765e30",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/matryer/is@v1.4.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/matryer/is",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.4.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-f3b9370edb3860a9",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "github.com/munnerz/goautoneg",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.0.0-20191010083416-a7dc8b61c822"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-83134d8bcbb9df59",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.23.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "github.com/prometheus/client_golang",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.23.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-64f16e8893559b19",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_model@v0.6.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "github.com/prometheus/client_model",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.6.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4eb8303b3c75e4e8",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/prometheus/common@v0.67.5",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "github.com/prometheus/common",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.67.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-558d9aa0d458f7fc",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/prometheus/procfs@v0.19.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "github.com/prometheus/procfs",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.19.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-c24d1f26867961e9",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/riandyrn/otelchi@v0.12.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "github.com/riandyrn/otelchi",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.12.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-c5ff83e8201d4de6",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/github.com/rs/cors@v1.11.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "github.com/rs/cors",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.11.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Application-e90da172ca54b427",
+      "downloadLocation": "git+https://github.com/diwise/api-opendata.git",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "go.mod",
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6876cd41e749b1f",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/auto/sdk@v1.2.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "go.opentelemetry.io/auto/sdk",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.2.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-dca0fe3f51a2b3b",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/contrib/bridges/otelslog@v0.14.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/contrib/bridges/otelslog",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.14.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5791a646b9c3ba27",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.64.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.64.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-a37b9a21259b29ef",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-88a657c4abc82d12",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp@v0.15.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.15.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-185dd43c79011d6c",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-c57e57791a7ecdfe",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1641675f51fcce0f",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-41dd0be2f21db10a",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/log@v0.15.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/log",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.15.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-b690bf26a82c50a1",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/metric@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/metric",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9b2de94c965aceac",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/sdk",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-41f86d3fed0e552a",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/sdk/log@v0.15.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/sdk/log",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.15.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-a65a5ac60b35eba1",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/sdk/metric@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/sdk/metric",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1e3084cddd1b5386",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/trace@v1.39.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "Apache-2.0 AND BSD-3-Clause",
+      "name": "go.opentelemetry.io/otel/trace",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.39.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4c0c0ba02cf37d84",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/proto/otlp@v1.9.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "go.opentelemetry.io/proto/otlp",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.9.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ba26f72d010bbd17",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/go.yaml.in/yaml/v2@v2.4.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "go.yaml.in/yaml/v2",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v2.4.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-e5277369b29947f4",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/golang.org/x/net@v0.49.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "golang.org/x/net",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.49.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-40f215afb2b65bf4",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/golang.org/x/sys@v0.40.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "golang.org/x/sys",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.40.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ca3d08557be1140d",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/golang.org/x/text@v0.33.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "golang.org/x/text",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.33.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8e98e13222092ad5",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/google.golang.org/genproto/googleapis/api@v0.0.0-20260120221211-b8f7ae30c516",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "google.golang.org/genproto/googleapis/api",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.0.0-20260120221211-b8f7ae30c516"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7ac74ece5bf296af",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0.0-20260120221211-b8f7ae30c516",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "google.golang.org/genproto/googleapis/rpc",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v0.0.0-20260120221211-b8f7ae30c516"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2d36527208211047",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.78.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "google.golang.org/grpc",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.78.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ecffc2953aa85fae",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.36.11",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "google.golang.org/protobuf",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v1.36.11"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-25ca9b687c915197",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "gopkg.in/yaml.v2",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: go.mod",
+      "supplier": "NOASSERTION",
+      "versionInfo": "v2.4.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Package-cc489b2bc2d570c9",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Application-e90da172ca54b427"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Repository-741c5ff31ac42f2e",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2d36527208211047",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4c0c0ba02cf37d84",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c57e57791a7ecdfe",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ceb8cf9c027615c0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1641675f51fcce0f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2d36527208211047",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-185dd43c79011d6c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4c0c0ba02cf37d84",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-185dd43c79011d6c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-185dd43c79011d6c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-185dd43c79011d6c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-185dd43c79011d6c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ceb8cf9c027615c0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-185dd43c79011d6c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-185dd43c79011d6c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1e3084cddd1b5386"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2d36527208211047",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1f9dcbc961af8a57"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7ac74ece5bf296af",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1f9dcbc961af8a57"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-8e98e13222092ad5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1f9dcbc961af8a57"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ca3d08557be1140d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1f9dcbc961af8a57"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1f9dcbc961af8a57"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-40f215afb2b65bf4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64093c530fa32e6a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7ac74ece5bf296af",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b85553e2073b608c",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e5277369b29947f4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d36527208211047"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-173d1055df0eaeac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-25ca9b687c915197",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-5791a646b9c3ba27",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64093c530fa32e6a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9e63b8a031765e30",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-adeb2ae4d723d1f0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c24d1f26867961e9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c5ff83e8201d4de6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-2d69c04ca342cbd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41dd0be2f21db10a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41dd0be2f21db10a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-41dd0be2f21db10a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-707ad0fa9758ae44",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-41f86d3fed0e552a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1f9dcbc961af8a57",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4c0c0ba02cf37d84"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2d36527208211047",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4c0c0ba02cf37d84"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4c0c0ba02cf37d84"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64093c530fa32e6a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4eb8303b3c75e4e8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64f16e8893559b19",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4eb8303b3c75e4e8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ba26f72d010bbd17",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4eb8303b3c75e4e8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e5277369b29947f4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4eb8303b3c75e4e8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4eb8303b3c75e4e8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-f3b9370edb3860a9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4eb8303b3c75e4e8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-40f215afb2b65bf4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-558d9aa0d458f7fc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1ae236e7ca4f4735",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5791a646b9c3ba27"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5791a646b9c3ba27"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5791a646b9c3ba27"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5791a646b9c3ba27"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5791a646b9c3ba27"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5791a646b9c3ba27"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-64f16e8893559b19"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6876cd41e749b1f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6876cd41e749b1f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-707ad0fa9758ae44"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-7ac74ece5bf296af"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-40f215afb2b65bf4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-83134d8bcbb9df59"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4eb8303b3c75e4e8",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-83134d8bcbb9df59"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-558d9aa0d458f7fc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-83134d8bcbb9df59"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64f16e8893559b19",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-83134d8bcbb9df59"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b3a84094a1c72982",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-83134d8bcbb9df59"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b85553e2073b608c",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-83134d8bcbb9df59"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-83134d8bcbb9df59"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-41dd0be2f21db10a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-41f86d3fed0e552a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4c0c0ba02cf37d84",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ceb8cf9c027615c0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-88a657c4abc82d12"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2d36527208211047",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8e98e13222092ad5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7ac74ece5bf296af",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8e98e13222092ad5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8e98e13222092ad5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-9b2de94c965aceac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-40f215afb2b65bf4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-9b2de94c965aceac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64093c530fa32e6a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-9b2de94c965aceac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-9b2de94c965aceac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-9b2de94c965aceac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-9b2de94c965aceac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-9b2de94c965aceac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a37b9a21259b29ef"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6876cd41e749b1f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a37b9a21259b29ef"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-707ad0fa9758ae44",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a37b9a21259b29ef"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a37b9a21259b29ef"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b85553e2073b608c",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a37b9a21259b29ef"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a37b9a21259b29ef"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a65a5ac60b35eba1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-707ad0fa9758ae44",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a65a5ac60b35eba1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a65a5ac60b35eba1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a65a5ac60b35eba1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a65a5ac60b35eba1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ea5fab490eaeaecc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-a65a5ac60b35eba1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1641675f51fcce0f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-185dd43c79011d6c",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-41dd0be2f21db10a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-41f86d3fed0e552a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-5791a646b9c3ba27",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64093c530fa32e6a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-83134d8bcbb9df59",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-88a657c4abc82d12",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9e63b8a031765e30",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c57e57791a7ecdfe",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-dca0fe3f51a2b3b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-adeb2ae4d723d1f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64093c530fa32e6a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af67798b6f9fea81"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9e63b8a031765e30",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af67798b6f9fea81"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b690bf26a82c50a1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-173d1055df0eaeac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c24d1f26867961e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1ae236e7ca4f4735",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c24d1f26867961e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c24d1f26867961e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c24d1f26867961e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c24d1f26867961e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a65a5ac60b35eba1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c24d1f26867961e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b690bf26a82c50a1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c24d1f26867961e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-1e3084cddd1b5386",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c57e57791a7ecdfe"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4c0c0ba02cf37d84",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c57e57791a7ecdfe"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9b2de94c965aceac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c57e57791a7ecdfe"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c57e57791a7ecdfe"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ecffc2953aa85fae",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-c57e57791a7ecdfe"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-173d1055df0eaeac",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-25ca9b687c915197",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2d69c04ca342cbd9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-5791a646b9c3ba27",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9e63b8a031765e30",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-adeb2ae4d723d1f0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-af67798b6f9fea81",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c24d1f26867961e9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c5ff83e8201d4de6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cc489b2bc2d570c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-41dd0be2f21db10a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-dca0fe3f51a2b3b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a37b9a21259b29ef",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-dca0fe3f51a2b3b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-40f215afb2b65bf4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e5277369b29947f4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ca3d08557be1140d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e5277369b29947f4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Application-e90da172ca54b427",
+      "relationshipType": "CONTAINS",
+      "spdxElementId": "SPDXRef-Repository-741c5ff31ac42f2e"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}
