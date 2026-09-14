@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-messaging-settings commit f6fec7e7324f3c35cbb1a964a74f62dc80e1370f (2026-09-07T02:26:41Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-07T02:26:41Z",
+    "comment": "Genererad ur api-service-messaging-settings commit cdbec5bf24e9e04f06ddb7ffb6bf8ab719a22c83 (2026-09-10T08:45:42Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-10T08:45:42Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/messaging-settings/f6fec7e7324f3c35cbb1a964a74f62dc80e1370f",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/messaging-settings/cdbec5bf24e9e04f06ddb7ffb6bf8ab719a22c83",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-messaging-settings@f6fec7e",
+  "name": "api-service-messaging-settings@cdbec5b",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",

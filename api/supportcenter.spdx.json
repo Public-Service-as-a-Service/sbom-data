@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-supportcenter commit 4e76f40de252b27bc8926c443f47c2c3c225a789 (2026-09-07T07:23:07Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-07T07:23:07Z",
+    "comment": "Genererad ur api-service-supportcenter commit 4196ce5f33c4d61e9d70b88436e5ba8fd483b53f (2026-09-11T06:34:48Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-11T06:34:48Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/supportcenter/4e76f40de252b27bc8926c443f47c2c3c225a789",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/supportcenter/4196ce5f33c4d61e9d70b88436e5ba8fd483b53f",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-supportcenter@4e76f40",
+  "name": "api-service-supportcenter@4196ce5",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",
@@ -409,7 +409,7 @@
       "versionInfo": "3.1"
     },
     {
-      "SPDXID": "SPDXRef-Package-f3963d086184f87b",
+      "SPDXID": "SPDXRef-Package-5313f949ea14835b",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -561,6 +561,25 @@
       "versionInfo": "3.6.0"
     },
     {
+      "SPDXID": "SPDXRef-Package-83bf77cd964f7f77",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "com.sun.istack:istack-commons-runtime",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.2"
+    },
+    {
       "SPDXID": "SPDXRef-Package-10e713ff8c20f32",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -616,6 +635,25 @@
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
       "versionInfo": "3.0.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-374814f7280edf3",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/com.zaxxer/HikariCP@7.0.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "com.zaxxer:HikariCP",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.0.2"
     },
     {
       "SPDXID": "SPDXRef-Package-78fc293770f8469c",
@@ -1760,6 +1798,63 @@
       "versionInfo": "3.0.0"
     },
     {
+      "SPDXID": "SPDXRef-Package-4404c547222ac529",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "jakarta.inject:jakarta.inject-api",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2368c2bfe9e93dc0",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.2.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "EPL-2.0 AND BSD-3-Clause",
+      "licenseDeclared": "EPL-2.0 AND BSD-3-Clause",
+      "name": "jakarta.persistence:jakarta.persistence-api",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9df2ba9d1df07ae4",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "EPL-2.0 AND LicenseRef-2e634d8e67fc133b",
+      "licenseDeclared": "EPL-2.0 AND LicenseRef-2e634d8e67fc133b",
+      "name": "jakarta.transaction:jakarta.transaction-api",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "2.0.1"
+    },
+    {
       "SPDXID": "SPDXRef-Package-42fef1456d15047",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -1855,6 +1950,25 @@
       "versionInfo": "2.2.12"
     },
     {
+      "SPDXID": "SPDXRef-Package-a75ac6841b105ea0",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy@1.18.10",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "net.bytebuddy:byte-buddy",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.18.10"
+    },
+    {
       "SPDXID": "SPDXRef-Package-9aef3eb9e76c3c30",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -1891,6 +2005,25 @@
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
       "versionInfo": "2.6.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7fd35eb5bd5e59dd",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.antlr/antlr4-runtime@4.13.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "org.antlr:antlr4-runtime",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.13.2"
     },
     {
       "SPDXID": "SPDXRef-Package-795bfe8d1b1b0472",
@@ -2102,6 +2235,25 @@
       "versionInfo": "1.1.2"
     },
     {
+      "SPDXID": "SPDXRef-Package-b9db7d7d2c85173c",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "name": "org.aspectj:aspectjweaver",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.9.25.1"
+    },
+    {
       "SPDXID": "SPDXRef-Package-33a306f600c60787",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -2197,6 +2349,101 @@
       "versionInfo": "2.0.3"
     },
     {
+      "SPDXID": "SPDXRef-Package-95209ba85a9ea4b0",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.flywaydb/flyway-core@12.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.flywaydb:flyway-core",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "12.4.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-f72278ebd3b257c0",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.flywaydb/flyway-mysql@12.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.flywaydb:flyway-mysql",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "12.4.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-e312a7429dac2612",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "org.glassfish.jaxb:jaxb-core",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6b5f454714808294",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "org.glassfish.jaxb:jaxb-runtime",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3f8dbe93351b0a36",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.glassfish.jaxb/txw2@4.0.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "name": "org.glassfish.jaxb:txw2",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.0.9"
+    },
+    {
       "SPDXID": "SPDXRef-Package-1adcb8a7e5bb90d",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -2214,6 +2461,44 @@
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
       "versionInfo": "2.2.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-219b5ff681ceaf1f",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.hibernate.models/hibernate-models@1.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.hibernate.models:hibernate-models",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "1.1.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-e807b1f7724591da",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.hibernate.orm/hibernate-core@7.4.1.Final",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.hibernate.orm:hibernate-core",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.4.1.Final"
     },
     {
       "SPDXID": "SPDXRef-Package-6ae3b67d2a0834cb",
@@ -2386,6 +2671,25 @@
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
       "versionInfo": "2.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-b8cc859d0666ebb1",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.mariadb.jdbc/mariadb-java-client@3.5.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "name": "org.mariadb.jdbc:mariadb-java-client",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.5.8"
     },
     {
       "SPDXID": "SPDXRef-Package-4e6fef926a4d3358",
@@ -2654,6 +2958,63 @@
       "versionInfo": "4.1.0"
     },
     {
+      "SPDXID": "SPDXRef-Package-7e0c3e0fe93bb61c",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-data-commons@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-data-commons",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-d8948e5eff7682bf",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-data-jpa@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-data-jpa",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8ccce737e817edf1",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-flyway@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-flyway",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
       "SPDXID": "SPDXRef-Package-252d999a293b8dcd",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -2667,6 +3028,25 @@
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "Apache-2.0",
       "name": "org.springframework.boot:spring-boot-health",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ab2ec8108f1d229a",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-hibernate@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-hibernate",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
@@ -2749,6 +3129,44 @@
       "versionInfo": "4.1.0"
     },
     {
+      "SPDXID": "SPDXRef-Package-377fedc5ace9c48d",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-jdbc@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-jdbc",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-e7f820d4c21489a0",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-jpa@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-jpa",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
       "SPDXID": "SPDXRef-Package-49e2f0e5478324f2",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -2800,6 +3218,25 @@
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "Apache-2.0",
       "name": "org.springframework.boot:spring-boot-netty",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-aac7ebd9405b8e88",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-persistence@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-persistence",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
@@ -2920,6 +3357,25 @@
       "versionInfo": "4.1.0"
     },
     {
+      "SPDXID": "SPDXRef-Package-15541da79bbd80bd",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-sql@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-sql",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
       "SPDXID": "SPDXRef-Package-4a43b1a1e2fd3d2",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -2977,6 +3433,44 @@
       "versionInfo": "4.1.0"
     },
     {
+      "SPDXID": "SPDXRef-Package-4f80944b35f115d5",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-starter-data-jpa",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-cdb4263e8b48c11f",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-flyway@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-starter-flyway",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
       "SPDXID": "SPDXRef-Package-74ffe6bfd9712c21",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -2990,6 +3484,25 @@
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "Apache-2.0",
       "name": "org.springframework.boot:spring-boot-starter-jackson",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-28abb8894bebda56",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-starter-jdbc",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
@@ -3218,6 +3731,25 @@
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "Apache-2.0",
       "name": "org.springframework.boot:spring-boot-tomcat",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-294a34b4e96d8b44",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-transaction@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.boot:spring-boot-transaction",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
@@ -3547,6 +4079,25 @@
       "versionInfo": "4.1.0"
     },
     {
+      "SPDXID": "SPDXRef-Package-af29050301bb3c60",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework.data/spring-data-jpa@4.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework.data:spring-data-jpa",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "4.1.0"
+    },
+    {
       "SPDXID": "SPDXRef-Package-cd4f8d2592006ae1",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -3699,6 +4250,25 @@
       "versionInfo": "7.0.8"
     },
     {
+      "SPDXID": "SPDXRef-Package-5fe00955833757d9",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-aspects@7.0.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework:spring-aspects",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.0.8"
+    },
+    {
       "SPDXID": "SPDXRef-Package-623f23e3b3a13bb0",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -3788,6 +4358,63 @@
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "Apache-2.0",
       "name": "org.springframework:spring-expression",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.0.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-fdd87e6d6031b1e9",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-jdbc@7.0.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework:spring-jdbc",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.0.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-16a7ea30f0e8c92f",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-orm@7.0.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework:spring-orm",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "7.0.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6f241b14fe89bea9",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/org.springframework/spring-tx@7.0.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "name": "org.springframework:spring-tx",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
@@ -4164,7 +4791,7 @@
       "primaryPackagePurpose": "APPLICATION"
     },
     {
-      "SPDXID": "SPDXRef-Package-f52a0b4a9fb33503",
+      "SPDXID": "SPDXRef-Package-9a6e8d61c02e0be",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -4221,6 +4848,25 @@
       "versionInfo": "8.0.10"
     },
     {
+      "SPDXID": "SPDXRef-Package-bf58c4f4ddf17b98",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:maven/se.sundsvall.dept44/dept44-starter-jpa@8.0.10",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "se.sundsvall.dept44:dept44-starter-jpa",
+      "primaryPackagePurpose": "LIBRARY",
+      "sourceInfo": "package found in: pom.xml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "8.0.10"
+    },
+    {
       "SPDXID": "SPDXRef-Package-3eaf7e241f4a13af",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -4240,12 +4886,12 @@
       "versionInfo": "8.0.10"
     },
     {
-      "SPDXID": "SPDXRef-Package-69c683d1203a1bfb",
+      "SPDXID": "SPDXRef-Package-1bdd8cd669893b29",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/se.sundsvall/api-service-supportcenter@2.3",
+          "referenceLocator": "pkg:maven/se.sundsvall/api-service-supportcenter@2.4",
           "referenceType": "purl"
         }
       ],
@@ -4256,7 +4902,7 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "2.3"
+      "versionInfo": "2.4"
     },
     {
       "SPDXID": "SPDXRef-Package-bf5a14b4d917fe",
@@ -4318,7 +4964,7 @@
   ],
   "relationships": [
     {
-      "relatedSpdxElement": "SPDXRef-Package-69c683d1203a1bfb",
+      "relatedSpdxElement": "SPDXRef-Package-1bdd8cd669893b29",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Application-157bf9114c968510"
     },
@@ -4423,9 +5069,34 @@
       "spdxElementId": "SPDXRef-Package-1508d786fc7bf523"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-15541da79bbd80bd"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-a26f7308e86326dd",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-15d63681be487bcb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-623f23e3b3a13bb0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-16a7ea30f0e8c92f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6f241b14fe89bea9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-16a7ea30f0e8c92f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a26f7308e86326dd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-16a7ea30f0e8c92f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-fdd87e6d6031b1e9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-16a7ea30f0e8c92f"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-2194f1f010dca1a8",
@@ -4491,6 +5162,46 @@
       "relatedSpdxElement": "SPDXRef-Package-10e713ff8c20f32",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-1bd9f1e238af3936"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-33630235be9617b1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-3eaf7e241f4a13af",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-5313f949ea14835b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9a6e8d61c02e0be",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a328b57557c8b667",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b6f3eb4f8041fbbb",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bf58c4f4ddf17b98",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e99757d3795b950d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-1bdd8cd669893b29"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-64963e86e6723181",
@@ -4573,6 +5284,11 @@
       "spdxElementId": "SPDXRef-Package-2194f1f010dca1a8"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-e3cc6c2b481b9529",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-219b5ff681ceaf1f"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-42fef1456d15047",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-2200a5627c8e9b71"
@@ -4651,6 +5367,36 @@
       "relatedSpdxElement": "SPDXRef-Package-8ed3109ba83da792",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-26088c29f3f30a5a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-374814f7280edf3",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-28abb8894bebda56"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-377fedc5ace9c48d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-28abb8894bebda56"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4a43b1a1e2fd3d2",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-28abb8894bebda56"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-294a34b4e96d8b44"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6f241b14fe89bea9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-294a34b4e96d8b44"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-aac7ebd9405b8e88",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-294a34b4e96d8b44"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-c4911824a4d9e82b",
@@ -4773,6 +5519,11 @@
       "spdxElementId": "SPDXRef-Package-36c359278e75b60e"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-374814f7280edf3"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-1f37732b1a4bcd10",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-3762c6315f78f3bd"
@@ -4791,6 +5542,26 @@
       "relatedSpdxElement": "SPDXRef-Package-8db99ca24243bafc",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-3762c6315f78f3bd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-15541da79bbd80bd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-377fedc5ace9c48d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-294a34b4e96d8b44",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-377fedc5ace9c48d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-377fedc5ace9c48d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-fdd87e6d6031b1e9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-377fedc5ace9c48d"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-623f23e3b3a13bb0",
@@ -5103,6 +5874,26 @@
       "spdxElementId": "SPDXRef-Package-4e5b8121ab39f62c"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-28abb8894bebda56",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4f80944b35f115d5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-377fedc5ace9c48d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4f80944b35f115d5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4a43b1a1e2fd3d2",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4f80944b35f115d5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-d8948e5eff7682bf",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-4f80944b35f115d5"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-4f02568605adc792",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-4fa99fae37481d21"
@@ -5111,6 +5902,16 @@
       "relatedSpdxElement": "SPDXRef-Package-804c9adaca6e5b7d",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-4fa99fae37481d21"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-3ea1bd0776e51810",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5313f949ea14835b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5313f949ea14835b"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-6eeab66008214027",
@@ -5231,6 +6032,11 @@
       "relatedSpdxElement": "SPDXRef-Package-dc4f0b1c78f31661",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-5f180b53669d70ca"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b9db7d7d2c85173c",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-5fe00955833757d9"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-37c7138f400aea1b",
@@ -5368,41 +6174,6 @@
       "spdxElementId": "SPDXRef-Package-6928eb1ef8c7de34"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-33630235be9617b1",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-69c683d1203a1bfb"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-3eaf7e241f4a13af",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-69c683d1203a1bfb"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-a328b57557c8b667",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-69c683d1203a1bfb"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-b6f3eb4f8041fbbb",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-69c683d1203a1bfb"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-e99757d3795b950d",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-69c683d1203a1bfb"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f3963d086184f87b",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-69c683d1203a1bfb"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f52a0b4a9fb33503",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-69c683d1203a1bfb"
-    },
-    {
       "relatedSpdxElement": "SPDXRef-Package-42fef1456d15047",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-6ae3b67d2a0834cb"
@@ -5421,6 +6192,11 @@
       "relatedSpdxElement": "SPDXRef-Package-d42b5c0c80bd6222",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-6aecc870ffa67737"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e312a7429dac2612",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6b5f454714808294"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
@@ -5458,7 +6234,22 @@
       "spdxElementId": "SPDXRef-Package-6f1e477fbc606102"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-623f23e3b3a13bb0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6f241b14fe89bea9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a26f7308e86326dd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6f241b14fe89bea9"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-4fac4e67a36ded01",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-706c8b2ed179511f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-5313f949ea14835b",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-706c8b2ed179511f"
     },
@@ -5479,11 +6270,6 @@
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-eef6c3c9f64902f3",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-706c8b2ed179511f"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f3963d086184f87b",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-706c8b2ed179511f"
     },
@@ -5681,6 +6467,21 @@
       "relatedSpdxElement": "SPDXRef-Package-9a9ce7ec7c4af101",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-7b4b0885e231e8af"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-7e0c3e0fe93bb61c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-8490bbe803ebb20d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-7e0c3e0fe93bb61c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-aac7ebd9405b8e88",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-7e0c3e0fe93bb61c"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-6eeab66008214027",
@@ -5903,6 +6704,21 @@
       "spdxElementId": "SPDXRef-Package-8babd171f320d344"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8ccce737e817edf1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-377fedc5ace9c48d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8ccce737e817edf1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-95209ba85a9ea4b0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8ccce737e817edf1"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-5c25a2aa242c2e6f",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-8db99ca24243bafc"
@@ -5966,6 +6782,11 @@
       "relatedSpdxElement": "SPDXRef-Package-eef6c3c9f64902f3",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-94fd190628b2260a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6573020cd9f841cf",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-95209ba85a9ea4b0"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
@@ -6203,6 +7024,31 @@
       "spdxElementId": "SPDXRef-Package-aab8fc9fee69d5e1"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-2e06a6170f24bb93",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-aac7ebd9405b8e88"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6f241b14fe89bea9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-aac7ebd9405b8e88"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-16a7ea30f0e8c92f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ab2ec8108f1d229a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e7f820d4c21489a0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ab2ec8108f1d229a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e807b1f7724591da",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ab2ec8108f1d229a"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-bfb528e67983df22",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-ac4cdaf279215b99"
@@ -6266,6 +7112,56 @@
       "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-aec3678591e81787"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-16a7ea30f0e8c92f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-37c7138f400aea1b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-623f23e3b3a13bb0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6f241b14fe89bea9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7276f554c3c24c2b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7fd35eb5bd5e59dd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-8490bbe803ebb20d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a26f7308e86326dd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ce1467cd0df1488b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-af29050301bb3c60"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-3ea1bd0776e51810",
@@ -6598,6 +7494,26 @@
       "spdxElementId": "SPDXRef-Package-be0b7dc6c734d208"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-4f80944b35f115d5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-bf58c4f4ddf17b98"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b8cc859d0666ebb1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-bf58c4f4ddf17b98"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-cdb4263e8b48c11f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-bf58c4f4ddf17b98"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-f72278ebd3b257c0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-bf58c4f4ddf17b98"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-4fac4e67a36ded01",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-c00b9443beeaecc"
@@ -6768,6 +7684,11 @@
       "spdxElementId": "SPDXRef-Package-cb0d32f8b746aca5"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-5313f949ea14835b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cb0d32f8b746aca5"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-9badfca58b42ffec",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-cb0d32f8b746aca5"
@@ -6784,11 +7705,6 @@
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-eef6c3c9f64902f3",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-cb0d32f8b746aca5"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f3963d086184f87b",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-cb0d32f8b746aca5"
     },
@@ -6841,6 +7757,26 @@
       "relatedSpdxElement": "SPDXRef-Package-c68999c2c4e3f090",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-cd4f8d2592006ae1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-28abb8894bebda56",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cdb4263e8b48c11f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-377fedc5ace9c48d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cdb4263e8b48c11f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4a43b1a1e2fd3d2",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cdb4263e8b48c11f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-8ccce737e817edf1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-cdb4263e8b48c11f"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-33a306f600c60787",
@@ -7003,6 +7939,26 @@
       "spdxElementId": "SPDXRef-Package-d6fdc2434200797e"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-5fe00955833757d9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-d8948e5eff7682bf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7e0c3e0fe93bb61c",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-d8948e5eff7682bf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ab2ec8108f1d229a",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-d8948e5eff7682bf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-af29050301bb3c60",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-d8948e5eff7682bf"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-6eeab66008214027",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-da174423bf682718"
@@ -7073,6 +8029,96 @@
       "spdxElementId": "SPDXRef-Package-e302a944c29fc450"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-1f0da9bf836d33a4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-3f8dbe93351b0a36",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-64963e86e6723181",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-83bf77cd964f7f77",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-84d5b89837f8339e",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-16a7ea30f0e8c92f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e7f820d4c21489a0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2368c2bfe9e93dc0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e7f820d4c21489a0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-294a34b4e96d8b44",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e7f820d4c21489a0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-377fedc5ace9c48d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e7f820d4c21489a0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-219b5ff681ceaf1f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2368c2bfe9e93dc0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-4404c547222ac529",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6b5f454714808294",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7fd35eb5bd5e59dd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-84d5b89837f8339e",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9df2ba9d1df07ae4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a75ac6841b105ea0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e3cc6c2b481b9529",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e807b1f7724591da"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-9a9ce7ec7c4af101",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-e8d07cb089e7f31f"
@@ -7093,6 +8139,11 @@
       "spdxElementId": "SPDXRef-Package-e99757d3795b950d"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-5313f949ea14835b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-e99757d3795b950d"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-54253f3cb446e7cb",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-e99757d3795b950d"
@@ -7109,11 +8160,6 @@
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-a7b6dff230f70fa1",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-e99757d3795b950d"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f3963d086184f87b",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-e99757d3795b950d"
     },
@@ -7203,16 +8249,6 @@
       "spdxElementId": "SPDXRef-Package-f0389abcae888ff6"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-3ea1bd0776e51810",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-f3963d086184f87b"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-f3963d086184f87b"
-    },
-    {
       "relatedSpdxElement": "SPDXRef-Package-7d4a08aed2ba84df",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-f4b4f3c6693b81a1"
@@ -7258,6 +8294,11 @@
       "spdxElementId": "SPDXRef-Package-f59e6e6a9ae20af0"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-95209ba85a9ea4b0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-f72278ebd3b257c0"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-623f23e3b3a13bb0",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-fc62d72b06174c7a"
@@ -7286,6 +8327,21 @@
       "relatedSpdxElement": "SPDXRef-Package-e302a944c29fc450",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-fcdb9269d2b935c2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-623f23e3b3a13bb0",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-fdd87e6d6031b1e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6f241b14fe89bea9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-fdd87e6d6031b1e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a26f7308e86326dd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-fdd87e6d6031b1e9"
     },
     {
       "relatedSpdxElement": "SPDXRef-Application-157bf9114c968510",

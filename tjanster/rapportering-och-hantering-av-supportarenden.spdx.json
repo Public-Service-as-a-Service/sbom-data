@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-katla-sm commit 1ca49ce01cae9bee7dd4d815305f7432f20bec8d (2026-09-07T08:04:13Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-07T08:04:13Z",
+    "comment": "Genererad ur web-app-katla-sm commit 6547212c8f9a43490e0badfd5e5af4b06a21a7c2 (2026-09-11T12:12:53Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-11T12:12:53Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/rapportering-och-hantering-av-supportarenden/1ca49ce01cae9bee7dd4d815305f7432f20bec8d",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/rapportering-och-hantering-av-supportarenden/6547212c8f9a43490e0badfd5e5af4b06a21a7c2",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"Public-Domain\"",
@@ -17,7 +17,7 @@
       "name": "Public-Domain"
     }
   ],
-  "name": "web-app-katla-sm@1ca49ce",
+  "name": "web-app-katla-sm@6547212",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-31197b1d67a13199",

@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-digital-registered-letter commit 742c04cd8bfba4c15c35170b875feb9c169ae792 (2026-08-31T22:10:33Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-08-31T22:10:33Z",
+    "comment": "Genererad ur api-service-digital-registered-letter commit 1628e7325ac2a037ad7640f0f192f3fdd4e301c8 (2026-09-08T07:33:12Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-08T07:33:12Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/digital-registered-letter/742c04cd8bfba4c15c35170b875feb9c169ae792",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/digital-registered-letter/1628e7325ac2a037ad7640f0f192f3fdd4e301c8",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-digital-registered-letter@742c04c",
+  "name": "api-service-digital-registered-letter@1628e73",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",
