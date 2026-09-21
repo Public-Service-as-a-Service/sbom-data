@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-seab-loader commit 04f816c3e9f41ce6c5a144b6802a5fe92418b4a9 (2026-08-31T06:08:10Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-08-31T06:08:10Z",
+    "comment": "Genererad ur api-service-seab-loader commit 30f53247238e232bab21844e0562880a9f520105 (2026-09-21T06:11:15Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-21T06:11:15Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/seab-loader/04f816c3e9f41ce6c5a144b6802a5fe92418b4a9",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/seab-loader/30f53247238e232bab21844e0562880a9f520105",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-seab-loader@04f816c",
+  "name": "api-service-seab-loader@30f5324",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",
