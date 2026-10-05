@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-licensed-business commit 22b00fd79d4f6e49befcbcd78540ff56b8c308ac (2026-09-18T08:03:57Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-18T08:03:57Z",
+    "comment": "Genererad ur api-service-licensed-business commit 622bb43dbf2ab4c5f8c85efacc349c3f0087f9e8 (2026-09-29T11:04:07Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-29T11:04:07Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/licensed-business/22b00fd79d4f6e49befcbcd78540ff56b8c308ac",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/licensed-business/622bb43dbf2ab4c5f8c85efacc349c3f0087f9e8",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-licensed-business@22b00fd",
+  "name": "api-service-licensed-business@622bb43",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",

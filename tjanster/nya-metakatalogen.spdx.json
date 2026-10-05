@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-new-meta-catalogue commit 66d2a886603111f762702e84a291fb17db1a7f20 (2025-09-04T06:28:55Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2025-09-04T06:28:55Z",
+    "comment": "Genererad ur web-app-new-meta-catalogue commit 4bf05974a8c2ee230b04b825e0097c285c751f02 (2026-10-01T05:46:52Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-10-01T05:46:52Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/nya-metakatalogen/66d2a886603111f762702e84a291fb17db1a7f20",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/nya-metakatalogen/4bf05974a8c2ee230b04b825e0097c285c751f02",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"MIT-X11\"",
@@ -17,7 +17,7 @@
       "name": "MIT-X11"
     }
   ],
-  "name": "web-app-new-meta-catalogue@66d2a88",
+  "name": "web-app-new-meta-catalogue@4bf0597",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-fda6cddfd0b5e5b2",

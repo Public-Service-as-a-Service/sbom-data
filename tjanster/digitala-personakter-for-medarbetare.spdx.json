@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-new-personal-files commit 92e251169c29fb22f37fb7ae3ab5c6b5c7e56c28 (2026-09-25T11:29:58Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-25T11:29:58Z",
+    "comment": "Genererad ur web-app-new-personal-files commit 3e093eff06e5ccce2ef79a37dfd299010b110e3c (2026-09-29T06:50:12Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-29T06:50:12Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/digitala-personakter-for-medarbetare/92e251169c29fb22f37fb7ae3ab5c6b5c7e56c28",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/digitala-personakter-for-medarbetare/3e093eff06e5ccce2ef79a37dfd299010b110e3c",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-new-personal-files@92e2511",
+  "name": "web-app-new-personal-files@3e093ef",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-4e23bd16f917af38",

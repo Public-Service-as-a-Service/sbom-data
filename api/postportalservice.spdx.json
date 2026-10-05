@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-postportalservice commit 4be2e0f473f961f21ac05a390bfec93e1aaf5acf (2026-09-28T11:35:17Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-28T11:35:17Z",
+    "comment": "Genererad ur api-service-postportalservice commit dbc812c8c9b22ca9427ecc6464f374f75839731e (2026-09-29T12:04:10Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-29T12:04:10Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/postportalservice/4be2e0f473f961f21ac05a390bfec93e1aaf5acf",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/postportalservice/dbc812c8c9b22ca9427ecc6464f374f75839731e",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-postportalservice@4be2e0f",
+  "name": "api-service-postportalservice@dbc812c",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",

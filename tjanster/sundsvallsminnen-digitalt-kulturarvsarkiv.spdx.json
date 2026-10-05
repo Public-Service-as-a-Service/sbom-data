@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-memories commit 417c329dff995b8f59a7303646a94147b6ab9af5 (2026-09-28T06:41:51Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-28T06:41:51Z",
+    "comment": "Genererad ur web-app-memories commit f38ecfe30a784c6819a9464fae5263387209bc12 (2026-10-02T06:29:04Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-10-02T06:29:04Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/sundsvallsminnen-digitalt-kulturarvsarkiv/417c329dff995b8f59a7303646a94147b6ab9af5",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/sundsvallsminnen-digitalt-kulturarvsarkiv/f38ecfe30a784c6819a9464fae5263387209bc12",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-memories@417c329",
+  "name": "web-app-memories@f38ecfe",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-df528aaa08159031",

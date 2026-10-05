@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-business-center commit 00743256e0ee6a52dec0bd55adc7456bb0fab63d (2026-09-25T11:41:56Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-09-25T11:41:56Z",
+    "comment": "Genererad ur web-app-business-center commit ea006f968ef9d969ed2f40a1d6bba59630d901c5 (2026-09-30T07:15:06Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-09-30T07:15:06Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/mina-sidor-for-foretag-hos-kommunen/00743256e0ee6a52dec0bd55adc7456bb0fab63d",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/mina-sidor-for-foretag-hos-kommunen/ea006f968ef9d969ed2f40a1d6bba59630d901c5",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-business-center@0074325",
+  "name": "web-app-business-center@ea006f9",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-4e23bd16f917af38",
