@@ -390,7 +390,7 @@
       "versionInfo": "3.1"
     },
     {
-      "SPDXID": "SPDXRef-Package-b772277f579eb199",
+      "SPDXID": "SPDXRef-Package-b40f931204e59453",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -400,9 +400,8 @@
         }
       ],
       "filesAnalyzed": false,
-      "licenseComments": "Fastställd manuellt mot https://github.com/json-path/JsonPath/blob/master/LICENSE; se scripts/license-overrides.json.",
       "licenseConcluded": "Apache-2.0",
-      "licenseDeclared": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
       "name": "com.jayway.jsonpath:json-path",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
@@ -4341,7 +4340,7 @@
       "spdxElementId": "SPDXRef-Package-1546ba01c073e81c"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-b772277f579eb199",
+      "relatedSpdxElement": "SPDXRef-Package-b40f931204e59453",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-1546ba01c073e81c"
     },
@@ -6001,7 +6000,7 @@
       "spdxElementId": "SPDXRef-Package-9eaa6c4ee3478eda"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-b772277f579eb199",
+      "relatedSpdxElement": "SPDXRef-Package-b40f931204e59453",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-9eaa6c4ee3478eda"
     },
@@ -6249,6 +6248,16 @@
       "relatedSpdxElement": "SPDXRef-Package-e1778e532a088d1b",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-b40e298509d1cab2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-3ea1bd0776e51810",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b40f931204e59453"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b40f931204e59453"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-7463272205385ff7",
@@ -6691,7 +6700,7 @@
       "spdxElementId": "SPDXRef-Package-d50911886552cf96"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-b772277f579eb199",
+      "relatedSpdxElement": "SPDXRef-Package-b40f931204e59453",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-d50911886552cf96"
     },
