@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-supportcenter commit 210ae507cc77b61a55b57d9192b239442771a93c (2026-10-09T08:29:25Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-10-09T08:29:25Z",
+    "comment": "Genererad ur api-service-supportcenter commit 22b2e206d46814096b4f8e0792442d48ba03c71f (2026-10-13T12:41:38Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-10-13T12:41:38Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/supportcenter/210ae507cc77b61a55b57d9192b239442771a93c",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/supportcenter/22b2e206d46814096b4f8e0792442d48ba03c71f",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-supportcenter@210ae50",
+  "name": "api-service-supportcenter@22b2e20",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",

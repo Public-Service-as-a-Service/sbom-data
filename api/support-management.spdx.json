@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-support-management commit 6e6da63070712be3f589f18b712b6d34604a092e (2026-10-09T06:59:04Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-10-09T06:59:04Z",
+    "comment": "Genererad ur api-service-support-management commit e51eab472b5536d2772dc0a586a284250071a220 (2026-10-15T12:31:56Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-10-15T12:31:56Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/support-management/6e6da63070712be3f589f18b712b6d34604a092e",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/support-management/e51eab472b5536d2772dc0a586a284250071a220",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-support-management@6e6da63",
+  "name": "api-service-support-management@e51eab4",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",
@@ -2558,12 +2558,12 @@
       "versionInfo": "2.25.5"
     },
     {
-      "SPDXID": "SPDXRef-Package-37a5bccd9ae23875",
+      "SPDXID": "SPDXRef-Package-2dab5cc2fb36eef5",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-core@10.4.0",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-core@10.5.2",
           "referenceType": "purl"
         }
       ],
@@ -2574,15 +2574,15 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "10.4.0"
+      "versionInfo": "10.5.2"
     },
     {
-      "SPDXID": "SPDXRef-Package-572ffac62a61a546",
+      "SPDXID": "SPDXRef-Package-dc32e6990b6b0ced",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-facet@10.4.0",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-facet@10.5.2",
           "referenceType": "purl"
         }
       ],
@@ -2593,15 +2593,15 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "10.4.0"
+      "versionInfo": "10.5.2"
     },
     {
-      "SPDXID": "SPDXRef-Package-8bc694b558c480b2",
+      "SPDXID": "SPDXRef-Package-d66770e4f1c78a0d",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queries@10.4.0",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queries@10.5.2",
           "referenceType": "purl"
         }
       ],
@@ -2612,15 +2612,15 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "10.4.0"
+      "versionInfo": "10.5.2"
     },
     {
-      "SPDXID": "SPDXRef-Package-cd8f6225447aec9b",
+      "SPDXID": "SPDXRef-Package-6103caee50b64a3f",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queryparser@10.4.0",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-queryparser@10.5.2",
           "referenceType": "purl"
         }
       ],
@@ -2631,15 +2631,15 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "10.4.0"
+      "versionInfo": "10.5.2"
     },
     {
-      "SPDXID": "SPDXRef-Package-8f73996ca70d770f",
+      "SPDXID": "SPDXRef-Package-8d9d186f8614bc3d",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-sandbox@10.4.0",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-sandbox@10.5.2",
           "referenceType": "purl"
         }
       ],
@@ -2650,7 +2650,7 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "10.4.0"
+      "versionInfo": "10.5.2"
     },
     {
       "SPDXID": "SPDXRef-Package-8ace47d2efe275de",
@@ -5646,7 +5646,7 @@
       "versionInfo": "8.0.12"
     },
     {
-      "SPDXID": "SPDXRef-Package-1f82c0ed405f346a",
+      "SPDXID": "SPDXRef-Package-58b4488a5a349969",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -5724,7 +5724,7 @@
   ],
   "relationships": [
     {
-      "relatedSpdxElement": "SPDXRef-Package-1f82c0ed405f346a",
+      "relatedSpdxElement": "SPDXRef-Package-58b4488a5a349969",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Application-157bf9114c968510"
     },
@@ -5847,81 +5847,6 @@
       "relatedSpdxElement": "SPDXRef-Package-64963e86e6723181",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-1f0da9bf836d33a4"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-1f9dad21073a6711",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-260b2a29b828ecff",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-29b9ad478cc95546",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-5141186b0bd90f3",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-7c2cb0c09f72c04d",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-81f21e96d60feed",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-8ace47d2efe275de",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-a80fd71ac8b72083",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-b0ab22ec0671105e",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-c7781a6fb484dd7",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-cd8f6225447aec9b",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-d2f0b4b4b31170d3",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-d94fb11c263c49fe",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-e9b1faff5e733ef3",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f51a99cfa5d58300",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-1f82c0ed405f346a"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-4cda529ada62dc14",
@@ -6714,9 +6639,79 @@
       "spdxElementId": "SPDXRef-Package-563c1acfedb8ecd6"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-37a5bccd9ae23875",
+      "relatedSpdxElement": "SPDXRef-Package-1f9dad21073a6711",
       "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-572ffac62a61a546"
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-260b2a29b828ecff",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-29b9ad478cc95546",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-5141186b0bd90f3",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6103caee50b64a3f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-7c2cb0c09f72c04d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-81f21e96d60feed",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-8ace47d2efe275de",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-a80fd71ac8b72083",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b0ab22ec0671105e",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c7781a6fb484dd7",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-d2f0b4b4b31170d3",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-d94fb11c263c49fe",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e9b1faff5e733ef3",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-f51a99cfa5d58300",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-58b4488a5a349969"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-862b8e8ec5b8f011",
@@ -6797,6 +6792,21 @@
       "relatedSpdxElement": "SPDXRef-Package-ce1467cd0df1488b",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-607f65f91c85d2c7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2dab5cc2fb36eef5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6103caee50b64a3f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-8d9d186f8614bc3d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6103caee50b64a3f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-d66770e4f1c78a0d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-6103caee50b64a3f"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
@@ -7469,9 +7479,19 @@
       "spdxElementId": "SPDXRef-Package-8ba2bc38fa9300a8"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-37a5bccd9ae23875",
+      "relatedSpdxElement": "SPDXRef-Package-2dab5cc2fb36eef5",
       "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-8bc694b558c480b2"
+      "spdxElementId": "SPDXRef-Package-8d9d186f8614bc3d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-d66770e4f1c78a0d",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8d9d186f8614bc3d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-dc32e6990b6b0ced",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8d9d186f8614bc3d"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-1a277ca65e771b66",
@@ -7567,21 +7587,6 @@
       "relatedSpdxElement": "SPDXRef-Package-f8f6efc57ec88313",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-8f59fb38896c0755"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-37a5bccd9ae23875",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-8f73996ca70d770f"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-572ffac62a61a546",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-8f73996ca70d770f"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-8bc694b558c480b2",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-8f73996ca70d770f"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-c3c34e305c8ed2d1",
@@ -8744,21 +8749,6 @@
       "spdxElementId": "SPDXRef-Package-c8bb85bfa8494b83"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-37a5bccd9ae23875",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-cd8f6225447aec9b"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-8bc694b558c480b2",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-cd8f6225447aec9b"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-8f73996ca70d770f",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-cd8f6225447aec9b"
-    },
-    {
       "relatedSpdxElement": "SPDXRef-Package-40eb2712244ae4f9",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-cdab351c1b38fa85"
@@ -8862,6 +8852,11 @@
       "relatedSpdxElement": "SPDXRef-Package-eb78d4dac223f603",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-d5058d91252e2121"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2dab5cc2fb36eef5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-d66770e4f1c78a0d"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-c4911824a4d9e82b",
@@ -8992,6 +8987,11 @@
       "relatedSpdxElement": "SPDXRef-Package-64963e86e6723181",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-da63d43c2229b743"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-2dab5cc2fb36eef5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-dc32e6990b6b0ced"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-b40e298509d1cab2",
