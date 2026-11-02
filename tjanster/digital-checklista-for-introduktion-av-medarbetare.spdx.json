@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-boarding commit e6f1b70eeee0822df61ea72282bf5cca4be38a5b (2026-10-21T13:32:16Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-10-21T13:32:16Z",
+    "comment": "Genererad ur web-app-boarding commit bed6fa0fec417aee7ccc81d2fedf7040fb9676cf (2026-10-28T06:56:23Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-10-28T06:56:23Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/digital-checklista-for-introduktion-av-medarbetare/e6f1b70eeee0822df61ea72282bf5cca4be38a5b",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/digital-checklista-for-introduktion-av-medarbetare/bed6fa0fec417aee7ccc81d2fedf7040fb9676cf",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-boarding@e6f1b70",
+  "name": "web-app-boarding@bed6fa0",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-69f040a6fdd1c54d",
