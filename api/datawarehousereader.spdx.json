@@ -580,25 +580,6 @@
       "versionInfo": "3.6.0"
     },
     {
-      "SPDXID": "SPDXRef-Package-83bf77cd964f7f77",
-      "downloadLocation": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2",
-          "referenceType": "purl"
-        }
-      ],
-      "filesAnalyzed": false,
-      "licenseConcluded": "BSD-3-Clause",
-      "licenseDeclared": "BSD-3-Clause",
-      "name": "com.sun.istack:istack-commons-runtime",
-      "primaryPackagePurpose": "LIBRARY",
-      "sourceInfo": "package found in: pom.xml",
-      "supplier": "NOASSERTION",
-      "versionInfo": "4.1.2"
-    },
-    {
       "SPDXID": "SPDXRef-Package-10e713ff8c20f32",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
@@ -2254,7 +2235,7 @@
       "versionInfo": "1.1.2"
     },
     {
-      "SPDXID": "SPDXRef-Package-b9db7d7d2c85173c",
+      "SPDXID": "SPDXRef-Package-679991a7aa3b6913",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -2264,8 +2245,9 @@
         }
       ],
       "filesAnalyzed": false,
+      "licenseComments": "Fastställd manuellt mot https://github.com/eclipse-aspectj/aspectj/blob/master/LICENSE; se scripts/license-overrides.json.",
       "licenseConcluded": "EPL-2.0",
-      "licenseDeclared": "EPL-2.0",
+      "licenseDeclared": "NOASSERTION",
       "name": "org.aspectj:aspectjweaver",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
@@ -2368,26 +2350,7 @@
       "versionInfo": "2.0.3"
     },
     {
-      "SPDXID": "SPDXRef-Package-e312a7429dac2612",
-      "downloadLocation": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.9",
-          "referenceType": "purl"
-        }
-      ],
-      "filesAnalyzed": false,
-      "licenseConcluded": "BSD-3-Clause",
-      "licenseDeclared": "BSD-3-Clause",
-      "name": "org.glassfish.jaxb:jaxb-core",
-      "primaryPackagePurpose": "LIBRARY",
-      "sourceInfo": "package found in: pom.xml",
-      "supplier": "NOASSERTION",
-      "versionInfo": "4.0.9"
-    },
-    {
-      "SPDXID": "SPDXRef-Package-6b5f454714808294",
+      "SPDXID": "SPDXRef-Package-db1e0ccadfce3136",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -2397,28 +2360,10 @@
         }
       ],
       "filesAnalyzed": false,
+      "licenseComments": "Fastställd manuellt mot https://github.com/eclipse-ee4j/jaxb-ri/blob/master/LICENSE.md; se scripts/license-overrides.json.",
       "licenseConcluded": "BSD-3-Clause",
-      "licenseDeclared": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
       "name": "org.glassfish.jaxb:jaxb-runtime",
-      "primaryPackagePurpose": "LIBRARY",
-      "sourceInfo": "package found in: pom.xml",
-      "supplier": "NOASSERTION",
-      "versionInfo": "4.0.9"
-    },
-    {
-      "SPDXID": "SPDXRef-Package-3f8dbe93351b0a36",
-      "downloadLocation": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/org.glassfish.jaxb/txw2@4.0.9",
-          "referenceType": "purl"
-        }
-      ],
-      "filesAnalyzed": false,
-      "licenseConcluded": "BSD-3-Clause",
-      "licenseDeclared": "BSD-3-Clause",
-      "name": "org.glassfish.jaxb:txw2",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
@@ -6128,11 +6073,6 @@
       "spdxElementId": "SPDXRef-Package-6afd18d4799e8baf"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-e312a7429dac2612",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-6b5f454714808294"
-    },
-    {
       "relatedSpdxElement": "SPDXRef-Package-78fc293770f8469c",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-6cb7fbca6437b57d"
@@ -6443,11 +6383,6 @@
       "spdxElementId": "SPDXRef-Package-8a8a0be9e66b6c23"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-6b5f454714808294",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-8a8a0be9e66b6c23"
-    },
-    {
       "relatedSpdxElement": "SPDXRef-Package-7fd35eb5bd5e59dd",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-8a8a0be9e66b6c23"
@@ -6459,6 +6394,11 @@
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-9df2ba9d1df07ae4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-8a8a0be9e66b6c23"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-db1e0ccadfce3136",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-8a8a0be9e66b6c23"
     },
@@ -6853,7 +6793,7 @@
       "spdxElementId": "SPDXRef-Package-a3c58546dd0f9c8a"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-b9db7d7d2c85173c",
+      "relatedSpdxElement": "SPDXRef-Package-679991a7aa3b6913",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-a49a1d03343ec829"
     },
@@ -7826,31 +7766,6 @@
       "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-e302a944c29fc450"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-1f0da9bf836d33a4",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-3f8dbe93351b0a36",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-64963e86e6723181",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-83bf77cd964f7f77",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-84d5b89837f8339e",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-e312a7429dac2612"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-2aee8318a2071d40",

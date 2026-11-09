@@ -2083,7 +2083,7 @@
       "versionInfo": "1.1.2"
     },
     {
-      "SPDXID": "SPDXRef-Package-b9db7d7d2c85173c",
+      "SPDXID": "SPDXRef-Package-679991a7aa3b6913",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -2093,8 +2093,9 @@
         }
       ],
       "filesAnalyzed": false,
+      "licenseComments": "Fastställd manuellt mot https://github.com/eclipse-aspectj/aspectj/blob/master/LICENSE; se scripts/license-overrides.json.",
       "licenseConcluded": "EPL-2.0",
-      "licenseDeclared": "EPL-2.0",
+      "licenseDeclared": "NOASSERTION",
       "name": "org.aspectj:aspectjweaver",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
@@ -6904,7 +6905,7 @@
       "spdxElementId": "SPDXRef-Package-e5fc2137365eee43"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-b9db7d7d2c85173c",
+      "relatedSpdxElement": "SPDXRef-Package-679991a7aa3b6913",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-e6acb211dcdc1809"
     },

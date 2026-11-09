@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-messaging commit c8d73a09aa31a5955a4f11aee6aa6d6632f1055e (2026-10-27T11:54:57Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-10-27T11:54:57Z",
+    "comment": "Genererad ur api-service-messaging commit d2a97461ee7eb584d8b0215797d072e33488b20b (2026-11-02T21:18:30Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-11-02T21:18:30Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/messaging/c8d73a09aa31a5955a4f11aee6aa6d6632f1055e",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/messaging/d2a97461ee7eb584d8b0215797d072e33488b20b",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-messaging@c8d73a0",
+  "name": "api-service-messaging@d2a9746",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",
@@ -504,12 +504,12 @@
       "versionInfo": "11.38.2"
     },
     {
-      "SPDXID": "SPDXRef-Package-d38e818fe7d86a35",
+      "SPDXID": "SPDXRef-Package-ba2947d1bb622244",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/com.slack.api/slack-api-client@1.52.0",
+          "referenceLocator": "pkg:maven/com.slack.api/slack-api-client@1.53.0",
           "referenceType": "purl"
         }
       ],
@@ -520,15 +520,15 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "1.52.0"
+      "versionInfo": "1.53.0"
     },
     {
-      "SPDXID": "SPDXRef-Package-74885af0049f4bb2",
+      "SPDXID": "SPDXRef-Package-18eba4a59ad08099",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:maven/com.slack.api/slack-api-model@1.52.0",
+          "referenceLocator": "pkg:maven/com.slack.api/slack-api-model@1.53.0",
           "referenceType": "purl"
         }
       ],
@@ -539,7 +539,7 @@
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
       "supplier": "NOASSERTION",
-      "versionInfo": "1.52.0"
+      "versionInfo": "1.53.0"
     },
     {
       "SPDXID": "SPDXRef-Package-b3fb2f6f50e998a9",
@@ -4943,7 +4943,7 @@
       "versionInfo": "8.1.0"
     },
     {
-      "SPDXID": "SPDXRef-Package-55098c73a909d76a",
+      "SPDXID": "SPDXRef-Package-b68d9d857b9e9a99",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -5021,7 +5021,7 @@
   ],
   "relationships": [
     {
-      "relatedSpdxElement": "SPDXRef-Package-55098c73a909d76a",
+      "relatedSpdxElement": "SPDXRef-Package-b68d9d857b9e9a99",
       "relationshipType": "CONTAINS",
       "spdxElementId": "SPDXRef-Application-157bf9114c968510"
     },
@@ -5224,6 +5224,11 @@
       "relatedSpdxElement": "SPDXRef-Package-cdab351c1b38fa85",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-17ead726cb06a445"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9f46b394cfb020fd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-18eba4a59ad08099"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-96b41815447012c7",
@@ -5876,51 +5881,6 @@
       "spdxElementId": "SPDXRef-Package-54253f3cb446e7cb"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-146270e7dd22de7c",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-512a2633958ad4c5",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-5c22dda76836eb3f",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-6d1cc8c0912ab390",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-8c9b52277730bc51",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-d38e818fe7d86a35",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-d765826d9bb89a9b",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-e88cd2ffc3c39922",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f41bbe34872cfbdd",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-55098c73a909d76a"
-    },
-    {
       "relatedSpdxElement": "SPDXRef-Package-26a5f2877512a724",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-563c1acfedb8ecd6"
@@ -6369,11 +6329,6 @@
       "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-70bc10203a5ced4f"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-9f46b394cfb020fd",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-74885af0049f4bb2"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-45e7d806b1d7ae45",
@@ -7321,6 +7276,51 @@
       "spdxElementId": "SPDXRef-Package-b684144a477bffa1"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-146270e7dd22de7c",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-512a2633958ad4c5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-5c22dda76836eb3f",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-6d1cc8c0912ab390",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-8c9b52277730bc51",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ba2947d1bb622244",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-d765826d9bb89a9b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-e88cd2ffc3c39922",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-f41bbe34872cfbdd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-b68d9d857b9e9a99"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-1cce09dc741f4b94",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-b7c4ab82f298a5af"
@@ -7394,6 +7394,26 @@
       "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-b8e91400ddac35aa"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-18eba4a59ad08099",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ba2947d1bb622244"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-9f46b394cfb020fd",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ba2947d1bb622244"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-b3fb2f6f50e998a9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ba2947d1bb622244"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-ba2947d1bb622244"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-1cce09dc741f4b94",
@@ -7699,26 +7719,6 @@
       "relatedSpdxElement": "SPDXRef-Package-f28a58878a3818bc",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-cfe379e662103789"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-74885af0049f4bb2",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-d38e818fe7d86a35"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-9f46b394cfb020fd",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-d38e818fe7d86a35"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-b3fb2f6f50e998a9",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-d38e818fe7d86a35"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-d38e818fe7d86a35"
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-4fac4e67a36ded01",

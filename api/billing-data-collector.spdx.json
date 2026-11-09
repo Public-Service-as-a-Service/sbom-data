@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-billing-data-collector commit 9ba57af6802adae8da67d8c3a0fca697ee034133 (2026-10-27T12:15:22Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-10-27T12:15:22Z",
+    "comment": "Genererad ur api-service-billing-data-collector commit 2d086d6961b7866533452afe11f094dcd3caee2e (2026-11-06T13:37:46Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-11-06T13:37:46Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/billing-data-collector/9ba57af6802adae8da67d8c3a0fca697ee034133",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/billing-data-collector/2d086d6961b7866533452afe11f094dcd3caee2e",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-billing-data-collector@9ba57af",
+  "name": "api-service-billing-data-collector@2d086d6",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",

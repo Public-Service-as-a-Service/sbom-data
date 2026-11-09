@@ -1,15 +1,15 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur api-service-sm-loader commit 3e19d404a3147368a89f72837a17ede5d3ae68d4 (2026-11-02T09:38:30Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-11-02T09:38:30Z",
+    "comment": "Genererad ur api-service-sm-loader commit ae21516814ceef68f93b95abede73451d3d2a9b0 (2026-11-05T10:09:16Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-11-05T10:09:16Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/sm-loader/3e19d404a3147368a89f72837a17ede5d3ae68d4",
+  "documentNamespace": "https://public-service-as-a-service.github.io/api-catalogue/sbom/sm-loader/ae21516814ceef68f93b95abede73451d3d2a9b0",
   "hasExtractedLicensingInfos": [
     {
       "extractedText": "This component is licensed under \"GPL-2.0-only WITH classpath-exception\"",
@@ -17,7 +17,7 @@
       "name": "GPL-2.0-only WITH classpath-exception"
     }
   ],
-  "name": "api-service-sm-loader@3e19d40",
+  "name": "api-service-sm-loader@ae21516",
   "packages": [
     {
       "SPDXID": "SPDXRef-Repository-741c5ff31ac42f2e",

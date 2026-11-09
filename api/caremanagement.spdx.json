@@ -3281,7 +3281,7 @@
       "versionInfo": "1.0.4"
     },
     {
-      "SPDXID": "SPDXRef-Package-f0a91ee6acafb768",
+      "SPDXID": "SPDXRef-Package-60d676b4d67eb78b",
       "downloadLocation": "NOASSERTION",
       "externalRefs": [
         {
@@ -3291,8 +3291,9 @@
         }
       ],
       "filesAnalyzed": false,
+      "licenseComments": "Fastställd manuellt mot https://github.com/qos-ch/slf4j; se scripts/license-overrides.json.",
       "licenseConcluded": "Apache-2.0",
-      "licenseDeclared": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
       "name": "org.slf4j:jcl-over-slf4j",
       "primaryPackagePurpose": "LIBRARY",
       "sourceInfo": "package found in: pom.xml",
@@ -9264,11 +9265,6 @@
       "spdxElementId": "SPDXRef-Package-f04d4b1d42933292"
     },
     {
-      "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-f0a91ee6acafb768"
-    },
-    {
       "relatedSpdxElement": "SPDXRef-Package-288f63f77032b0a3",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-f20d7873dca8aedb"
@@ -9344,6 +9340,11 @@
       "spdxElementId": "SPDXRef-Package-f3d1d52f94b5f2ab"
     },
     {
+      "relatedSpdxElement": "SPDXRef-Package-60d676b4d67eb78b",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-f3d1d52f94b5f2ab"
+    },
+    {
       "relatedSpdxElement": "SPDXRef-Package-c05b4f00c3ffa66f",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-f3d1d52f94b5f2ab"
@@ -9355,11 +9356,6 @@
     },
     {
       "relatedSpdxElement": "SPDXRef-Package-c6ed9a80a29685b6",
-      "relationshipType": "DEPENDS_ON",
-      "spdxElementId": "SPDXRef-Package-f3d1d52f94b5f2ab"
-    },
-    {
-      "relatedSpdxElement": "SPDXRef-Package-f0a91ee6acafb768",
       "relationshipType": "DEPENDS_ON",
       "spdxElementId": "SPDXRef-Package-f3d1d52f94b5f2ab"
     },
