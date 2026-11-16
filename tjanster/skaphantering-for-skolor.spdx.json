@@ -1,17 +1,17 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
   "creationInfo": {
-    "comment": "Genererad ur web-app-edu-locker-management commit eb778f3079adae1a5c13b0cf33ccb341c2e10c15 (2026-10-28T15:32:02Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
-    "created": "2026-10-28T15:32:02Z",
+    "comment": "Genererad ur web-app-edu-locker-management commit 2d86105d80f257f9bc0126b0dff0c1614258829d (2026-11-12T11:21:10Z) med trivy-0.74.0. Underhålls av .github/workflows/refresh-sbom.yml i dev-web.",
+    "created": "2026-11-12T11:21:10Z",
     "creators": [
       "Organization: aquasecurity",
       "Tool: trivy-0.74.0"
     ]
   },
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/skaphantering-for-skolor/eb778f3079adae1a5c13b0cf33ccb341c2e10c15",
+  "documentNamespace": "https://web-katalog.sundsvall.dev/sbom/skaphantering-for-skolor/2d86105d80f257f9bc0126b0dff0c1614258829d",
   "hasExtractedLicensingInfos": [],
-  "name": "web-app-edu-locker-management@eb778f3",
+  "name": "web-app-edu-locker-management@2d86105",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-88befff56bce2a21",
