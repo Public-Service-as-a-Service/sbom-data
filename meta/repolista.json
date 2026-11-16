@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-09T13:14:53Z",
+  "uppdaterad": "2026-11-16T08:14:40Z",
   "repon": [
     {
       "archived": false,
@@ -53,7 +53,7 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-business-center",
       "name": "web-app-business-center",
-      "pushed_at": "2026-11-05T10:13:22Z"
+      "pushed_at": "2026-11-11T14:48:45Z"
     },
     {
       "archived": true,
@@ -65,7 +65,7 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-dispatch-portal",
       "name": "web-app-dispatch-portal",
-      "pushed_at": "2026-10-23T14:48:26Z"
+      "pushed_at": "2026-11-11T15:27:54Z"
     },
     {
       "archived": false,
@@ -83,7 +83,7 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-draken-admin",
       "name": "web-app-draken-admin",
-      "pushed_at": "2026-10-26T11:18:07Z"
+      "pushed_at": "2026-11-12T09:24:38Z"
     },
     {
       "archived": false,
@@ -95,19 +95,19 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-draken-public",
       "name": "web-app-draken-public",
-      "pushed_at": "2026-11-09T12:37:19Z"
+      "pushed_at": "2026-11-16T07:45:43Z"
     },
     {
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-edu-locker-management",
       "name": "web-app-edu-locker-management",
-      "pushed_at": "2026-10-28T15:32:07Z"
+      "pushed_at": "2026-11-12T11:23:05Z"
     },
     {
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-education-forecast",
       "name": "web-app-education-forecast",
-      "pushed_at": "2026-11-05T07:14:31Z"
+      "pushed_at": "2026-11-11T09:14:41Z"
     },
     {
       "archived": false,
@@ -155,7 +155,7 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-katla-external",
       "name": "web-app-katla-external",
-      "pushed_at": "2026-11-09T07:14:30Z"
+      "pushed_at": "2026-11-13T08:31:50Z"
     },
     {
       "archived": false,
@@ -167,7 +167,7 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-lifecare",
       "name": "web-app-lifecare",
-      "pushed_at": "2026-11-09T09:06:05Z"
+      "pushed_at": "2026-11-10T08:29:51Z"
     },
     {
       "archived": false,
@@ -185,13 +185,13 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-mina-sidor-bolag",
       "name": "web-app-mina-sidor-bolag",
-      "pushed_at": "2026-11-06T14:57:17Z"
+      "pushed_at": "2026-11-16T07:37:37Z"
     },
     {
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-new-meta-catalogue",
       "name": "web-app-new-meta-catalogue",
-      "pushed_at": "2026-10-29T14:34:43Z"
+      "pushed_at": "2026-11-12T13:52:19Z"
     },
     {
       "archived": false,
@@ -269,13 +269,13 @@
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-starter",
       "name": "web-app-starter",
-      "pushed_at": "2026-11-02T04:18:47Z"
+      "pushed_at": "2026-11-10T17:06:00Z"
     },
     {
       "archived": false,
       "html_url": "https://github.com/Sundsvallskommun/web-app-student-account-admin",
       "name": "web-app-student-account-admin",
-      "pushed_at": "2026-11-05T07:27:40Z"
+      "pushed_at": "2026-11-11T09:12:27Z"
     },
     {
       "archived": false,
